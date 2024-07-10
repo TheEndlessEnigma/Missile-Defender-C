@@ -1,6 +1,4 @@
 /*
-Copyright 2020 Christian ********* - chris@************
-
 BSD LICENSE
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -900,7 +898,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(0, 0);
-	glutCreateWindow("Missile Command");
+	glutCreateWindow("Missile Defender");
 	glutDisplayFunc(idle);
 	glutMouseFunc(handleMouse);
 	glutIdleFunc(idle);
